@@ -1,7 +1,7 @@
 import { services } from "@/Data/Data";
 export default function Services() {
   return (
-    <div className="text-center p-8">
+    <div className="text-center my-8">
       <div className="uppercase font-semibold text-sm text-WhiteGray">
         - Services
       </div>
