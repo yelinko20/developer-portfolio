@@ -41,7 +41,6 @@ export default function Portfolio() {
                   <img
                     src={project.img}
                     alt=""
-                    className="w-full h-full object-cover"
                   />
                   <div className="absolute w-full h-full bg-Orange top-0 left-0 z-10 flex items-center justify-center gap-4 scale-0 group-hover:scale-100 transition-all duration-300">
                     <Link href="">
@@ -57,7 +56,7 @@ export default function Portfolio() {
                   {project.tools.map((tool) => (
                     <span
                       key={tool}
-                      className="bg-Blur mr-2 rounded-full py-2 px-4 text-white text-sm"
+                      className="bg-Blur rounded-full py-2 px-3 text-white text-sm"
                     >
                       {tool}
                     </span>
