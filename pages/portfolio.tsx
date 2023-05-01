@@ -31,7 +31,7 @@ export default function Portfolio() {
             methodologies to deliver exceptional user experiences and measurable
             business outcomes.
           </p>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 p-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 my-8 md:px-8">
             {projects.map((project) => (
               <div
                 key={project.id}
