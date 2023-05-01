@@ -20,7 +20,7 @@ export default function contact() {
             Contact
           </div>
           <p className="leading-8 mb-8 text-sm max-w-xl mt-10 text-WhiteGray">
-            If you're looking for a skilled frontend developer to help bring
+            If you&apos;re looking for a skilled frontend developer to help bring
             your web application ideas to life, feel free to contact me. Let&apos;s
             discuss how I can contribute to your team and deliver top-notch
             results.
