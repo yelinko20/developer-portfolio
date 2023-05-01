@@ -16,7 +16,7 @@ export default function contact() {
         className="text-White gap-12 flex flex-col justify-center items-center lg:flex-row pt-28 lg:pt-0"
       >
         <div className="md:px-6 py-6 text-center">
-          <div className="uppercase text-4xl tracking-widest font-semibold">
+          <div className="uppercase md:text-4xl text-3xl md:tracking-widest tracking-wide font-semibold">
             Contact
           </div>
           <p className="leading-8 mb-8 text-sm max-w-xl mt-10 text-WhiteGray">
@@ -35,7 +35,7 @@ export default function contact() {
           </div>
         </div>
         <div className="lg:w-1/2 sm:w-[30rem] px-6 text-center py-6 shadow-ShadowBlur">
-          <div className="uppercase text-4xl tracking-widest font-semibold mb-10">Contact Form</div>
+          <div className="uppercase md:text-4xl text-3xl md:tracking-widest tracking-wide font-semibold mb-10">Contact Form</div>
           <form onSubmit={submitHandler}>
           <div className="flex items-center border-b border-White py-2 mb-8">
             <input type="text" className=" appearance-none bg-transparent border-none w-full text-White mr-3 py-1 px-2 leading-tight focus:outline-none" placeholder="Name"/>
