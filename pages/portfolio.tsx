@@ -7,7 +7,7 @@ import Services from "@/components/Services";
 import { countUpItems } from "@/Data/Data";
 import MyCountUp from "@/components/CountUp";
 import { useInView } from "react-intersection-observer";
-export default function portfolio() {
+export default function Portfolio() {
   const {ref,inView} = useInView({
     threshold: 0.5
   })
@@ -50,7 +50,7 @@ export default function portfolio() {
                 </div>
                 <div className="flex mt-2">
                   {project.tools.map(tool => (
-                    <span className="bg-Blur mr-2 rounded-full py-2 px-4 text-white text-sm">{tool}</span>
+                    <span key={tool} className="bg-Blur mr-2 rounded-full py-2 px-4 text-white text-sm">{tool}</span>
                   ))}
                 </div>
               </div>
