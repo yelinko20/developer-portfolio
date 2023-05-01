@@ -8,7 +8,7 @@ export default function Home() {
       </Head>
       <Wrapper pageIndex={1} className="max-w-2xl text-center flex flex-col justify-center">
         <div className="flex sm:justify-between items-center gap-4 sm:gap-0">
-          <div className="text-xl sm:text-3xl uppercase text-WhiteGray font-bold">Hi Im</div>
+          <div className="text-xl sm:text-3xl uppercase text-WhiteGray font-bold">Hi I&apos;m</div>
           <div className="sm:h-2 sm:w-[30rem] xs:w-[19rem] rounded-sm bg-Orange"></div>
         </div>
         <div className="sm:text-[7.2rem] xs:text-7xl text-5xl text-White font-medium">Mozorozov</div>
