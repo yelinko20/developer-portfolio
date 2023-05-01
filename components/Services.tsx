@@ -8,7 +8,7 @@ export default function Services() {
       <div className="font-semibold text-3xl mt-8 text-White uppercase">
         What I am Great At
       </div>
-      <p className="text-WhiteGray text-sm mt-8 leading-7 max-w-3xl">
+      <p className="text-WhiteGray text-sm mt-8 leading-7 max-w-3xl mx-auto">
         I offer a full range of web development services, from website design
         and development to API integration and performance optimization. I
         specialize in creating high-quality, responsive web applications that
