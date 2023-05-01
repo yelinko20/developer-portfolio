@@ -64,7 +64,7 @@ export default function Navbar() {
         </div>
       </nav>
       <motion.div variants={menuVariants} initial="hidden" animate={showMenu ? "visible": "hidden"}  className="bg-Black fixed top-0 right-0 w-16 h-16 rounded-full"></motion.div>
-      <motion.nav variants={navLinkVariants} animate={showMenu ? "visible" : "hidden"} className="min-h-screen md:hidden flex flex-col justify-center">
+      <motion.nav variants={navLinkVariants} animate={showMenu ? "visible" : "hidden"} className="h-screen md:hidden flex flex-col justify-center">
         {navLinks.map(navLink => (
           <Link key={navLink.label} href={navLink.path} className={`block px-3 py-2 text-5xl font-medium ${isActive(navLink.path)}`} onClick={(prev) => setShowMenu(!prev)}>
             {navLink.label}
