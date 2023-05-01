@@ -24,7 +24,7 @@ export default function Portfolio() {
           <div className="font-semibold text-3xl mt-8 text-White uppercase">
             My Masterpiece Collections
           </div>
-          <p className="text-WhiteGray text-sm mt-8 leading-7">
+          <p className="text-WhiteGray text-sm mt-8 leading-7 max-w-3xl">
             I specialize in developing custom web applications that cater to
             diverse business needs, from e-commerce platforms to data
             visualization dashboards, using the latest technologies and agile
