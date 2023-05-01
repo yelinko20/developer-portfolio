@@ -33,7 +33,7 @@ export default function Portfolio() {
           </p>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 p-8">
             {projects.map(project => (
-              <div key={project.id} className="bg-Blur p-4 h-[350px] rounded-lg">
+              <div key={project.id} className="bg-Blur p-4 rounded-lg">
                 <div className="w-full h-3/4 relative group">
                   <img src={project.img} alt="" className="w-full h-full object-cover"/>
                   <div className="absolute w-full h-full bg-Orange top-0 left-0 z-10 flex items-center justify-center gap-4 scale-0 group-hover:scale-100 transition-all duration-300">
@@ -48,7 +48,7 @@ export default function Portfolio() {
                 <div className="text-White mt-2 text-start">
                   {project.name}
                 </div>
-                <div className="flex mt-2">
+                <div className="flex mt-2 flex wrap">
                   {project.tools.map(tool => (
                     <span key={tool} className="bg-Blur mr-2 rounded-full py-2 px-4 text-white text-sm">{tool}</span>
                   ))}
